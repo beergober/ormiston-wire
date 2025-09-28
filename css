@@ -1,0 +1,24 @@
+﻿@font-face {
+  font-family: 'Arimo';
+  font-style: italic;
+  font-weight: 500;
+  src: url(s/arimo/v35/P5sdzZCDf9_T_10c3i9MeUcyat4iJY-2RCrNfQM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arimo';
+  font-style: italic;
+  font-weight: 700;
+  src: url(s/arimo/v35/P5sdzZCDf9_T_10c3i9MeUcyat4iJY9jQyrNfQM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 500;
+  src: url(s/arimo/v35/P5sfzZCDf9_T_3cV7NCUECyoxNk338xcDhrE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(s/arimo/v35/P5sfzZCDf9_T_3cV7NCUECyoxNk3CstcDhrE.ttf) format('truetype');
+}
