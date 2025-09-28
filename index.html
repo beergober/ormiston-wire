@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <style id="recaptcha-off">.rc-anchor, .grecaptcha-badge{display:none !important}</style>
 
+  <style id="recaptcha-off">.rc-anchor, .grecaptcha-badge{display:none !important}</style>
+
   <link rel="stylesheet" href="/assets/main.css">
   <style id="recaptcha-off">.rc-anchor, .grecaptcha-badge{display:none !important}</style>
 </head>
@@ -20,7 +22,7 @@
 jQuery(function($) { 
 
 			$( '.add_to_cart_button:not(.product_type_variable, .product_type_grouped)' ).on( 'click', function() {
-				window.gtag && window.gtag && gtag( 'event', 'add_to_cart', { 'event_category': 'ecommerce', 'event_label': ($(this).data('product_sku')) ? ($(this).data('product_sku')) : ('#' + $(this).data('product_id')), 'items': [ {'id': ($(this).data('product_sku')) ? ($(this).data('product_sku')) : ('#' + $(this).data('product_id')),'quantity': $(this).data('quantity')} ] } );
+				window.gtag && window.gtag && window.gtag && gtag( 'event', 'add_to_cart', { 'event_category': 'ecommerce', 'event_label': ($(this).data('product_sku')) ? ($(this).data('product_sku')) : ('#' + $(this).data('product_id')), 'items': [ {'id': ($(this).data('product_sku')) ? ($(this).data('product_sku')) : ('#' + $(this).data('product_id')),'quantity': $(this).data('quantity')} ] } );
 			});
 		
  });
